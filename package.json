@@ -1,0 +1,90 @@
+{
+  "name": "@monbon-ui/react",
+  "version": "0.0.0",
+  "description": "React component library built on Base UI, React Aria and Tailwind CSS v4",
+  "license": "MIT",
+  "author": "Monish Vassantrai",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monishski/monbon.git"
+  },
+  "homepage": "https://github.com/monishski/monbon#readme",
+  "bugs": "https://github.com/monishski/monbon/issues",
+  "keywords": [
+    "react",
+    "components",
+    "design-system",
+    "tailwindcss",
+    "base-ui",
+    "react-aria"
+  ],
+  "type": "module",
+  "sideEffects": [
+    "*.css"
+  ],
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "packageManager": "pnpm@11.5.0",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsdown",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "prettier": "prettier . --write",
+    "test": "vitest run --project storybook",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "lint-staged": "lint-staged",
+    "prepare": "husky"
+  },
+  "peerDependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@chromatic-com/storybook": "^5.6.0",
+    "@commitlint/cli": "^19.8.1",
+    "@commitlint/config-conventional": "^19.8.1",
+    "@eslint/js": "^9.39.5",
+    "@ianvs/prettier-plugin-sort-imports": "^4.7.1",
+    "@storybook/addon-a11y": "^10.6.6",
+    "@storybook/addon-docs": "^10.6.6",
+    "@storybook/addon-themes": "^10.6.6",
+    "@storybook/addon-vitest": "^10.6.6",
+    "@storybook/react-vite": "^10.6.6",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@vitest/browser-playwright": "^4.1.12",
+    "eslint": "^9.39.5",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "globals": "^16.5.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.4.0",
+    "playwright": "^1.65.0",
+    "prettier": "^3.9.10",
+    "prettier-plugin-tailwindcss": "^0.6.14",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "storybook": "^10.6.6",
+    "tsdown": "^0.23.7",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.72.1",
+    "vite": "^8.3.6",
+    "vitest": "^4.1.12"
+  }
+}

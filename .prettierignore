@@ -1,0 +1,10 @@
+# Ignore artifacts:
+dist
+storybook-static
+coverage
+
+# Ignore all HTML files:
+**/*.html
+
+# Ignore generated files:
+pnpm-lock.yaml

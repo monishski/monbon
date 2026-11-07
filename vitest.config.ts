@@ -1,0 +1,33 @@
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+import { storybookTest } from "@storybook/addon-vitest/vitest-plugin";
+import { playwright } from "@vitest/browser-playwright";
+import { defineConfig } from "vitest/config";
+
+const dirname = path.dirname(fileURLToPath(import.meta.url));
+
+// More info at: https://storybook.js.org/docs/writing-tests/integrations/vitest-addon
+export default defineConfig({
+  test: {
+    // Until the first stories land
+    passWithNoTests: true,
+    projects: [
+      {
+        extends: true,
+        plugins: [
+          // Runs a test for every story defined in the Storybook config
+          storybookTest({ configDir: path.join(dirname, ".storybook") }),
+        ],
+        test: {
+          name: "storybook",
+          browser: {
+            enabled: true,
+            headless: true,
+            provider: playwright({}),
+            instances: [{ browser: "chromium" }],
+          },
+        },
+      },
+    ],
+  },
+});
