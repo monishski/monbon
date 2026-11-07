@@ -1,0 +1,61 @@
+stories/docs/introduction.mdx
+  s_9108ba045b5c3e::t_065a80423fdb50 1-19
+.storybook/preview.ts
+  s_9108ba045b5c3e::t_47e442387e27ec 1-20
+.storybook/main.ts
+  s_9108ba045b5c3e::t_cd2edbd1a82be7 1-15
+README.md
+  s_9108ba045b5c3e::t_9ffa26a24145fa 1-34
+tsconfig.json
+  s_9108ba045b5c3e::t_043522a4bf2827 1-19
+tsdown.config.ts
+  s_9108ba045b5c3e::t_4045afc1be1304 1-11,19
+  s_9108ba045b5c3e::t_2e8199375bb6ee 12-18
+eslint.config.mjs
+  s_9108ba045b5c3e::t_1389aaffce5eb7 1-53
+vitest.config.ts
+  s_9108ba045b5c3e::t_c9a469534cbee1 12-13
+  s_9108ba045b5c3e::t_6f1c479bc48d12 1-11,14-33
+package.json
+  s_9108ba045b5c3e::t_8df88459ba2c21 1-90
+LICENSE
+  s_9108ba045b5c3e::t_9f62d19b8b3c53 1-21
+prettier.config.mjs
+  s_9108ba045b5c3e::t_64e505e173022a 1-16
+.gitignore
+  s_9108ba045b5c3e::t_aaf5dc20b963b4 1-24
+.husky/commit-msg
+  s_9108ba045b5c3e::t_7ebbebfde6f4a4 1
+.husky/pre-commit
+  s_9108ba045b5c3e::t_d20e05c6eecb45 1
+.prettierignore
+  s_9108ba045b5c3e::t_786ab6cdc81f70 1-10
+commitlint.config.mjs
+  s_9108ba045b5c3e::t_c44c7307984bd1 1-28
+lint-staged.config.mjs
+  s_9108ba045b5c3e::t_252d95a6551991 1-4
+pnpm-lock.yaml
+  s_9108ba045b5c3e::t_a0a3a0af569816 1-6500
+pnpm-workspace.yaml
+  s_9108ba045b5c3e::t_23fe9b76b06cef 1-2
+src/index.ts
+  s_9108ba045b5c3e::t_46887a49c60e9d 1-2
+vitest.shims.d.ts
+  s_9108ba045b5c3e::t_c279a2662afe04 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "4d8c687a90a28e9523f42c0281075f80c10cac56",
+  "prompts": {},
+  "sessions": {
+    "s_9108ba045b5c3e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f03f1784-bd65-4a6d-9403-9593808099d7",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Monish Vassantrai <m.vassantrai@gmail.com>"
+    }
+  }
+}
