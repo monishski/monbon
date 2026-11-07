@@ -1,0 +1,29 @@
+import { Meta } from "@storybook/addon-docs/blocks";
+
+import { ColorScales, SurfaceColors } from "./tokens";
+
+<Meta title="Foundations/Colors" />
+
+# Colors
+
+Colours come in two layers:
+
+- **Primitives** (`colors.primitives.css`): the raw 12-step scales, such as `--coral-9` or
+  `--gray-a3`, defined separately for `.light` and `.dark`.
+- **Semantics** (`colors.semantics.css`): what components use. Each intent maps the same
+  15 roles onto a primitive scale, so components never refer to a hue directly.
+
+Tailwind's default palette is turned off (`--color-*: initial`), so the semantic tokens are
+the only colour utilities: `bg-accent-solid`, `text-default-text`, `border-error-border`, and
+so on. Switch the theme in the toolbar to compare light and dark.
+
+## Surfaces
+
+<SurfaceColors />
+
+## Intents
+
+Hover a swatch to see its token. Roles run from the page background (`base`) through
+interactive backgrounds, borders and solid fills to text.
+
+<ColorScales />

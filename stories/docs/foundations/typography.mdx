@@ -1,0 +1,22 @@
+import { Meta } from "@storybook/addon-docs/blocks";
+
+import { TypographyScale } from "./tokens";
+
+<Meta title="Foundations/Typography" />
+
+# Typography
+
+- **Primitives** (`typography.primitives.css`): font families, a geometric size scale
+  (14px base × 1.2), weights and line heights.
+- **Semantics** (`typography.semantics.css`): each `typography-*` utility sets the size,
+  weight and line height for one role.
+
+## Fonts
+
+`--font-sans` uses Figtree and `--font-number` uses Input. Each one falls back to a system
+font, so the library ships no font files. To load them, set `--font-figtree` and
+`--font-input` on `<html>`, for example with `next/font`. This Storybook loads Figtree only.
+
+## Scale
+
+<TypographyScale />

@@ -1,0 +1,28 @@
+import { Meta } from "@storybook/addon-docs/blocks";
+
+import { ElementSizes, Radii, Spacing } from "./tokens";
+
+<Meta title="Foundations/Layout" />
+
+# Layout
+
+- **Primitives** (`layout.primitives.css`): element heights and the focus ring width.
+- **Semantics** (`layout.semantics.css`): radius and padding by role.
+
+Nested surfaces use an inner radius equal to the outer radius minus the padding, so the
+corners stay concentric (`rounded-container-inner` inside `p-container`).
+
+## Element sizes
+
+The heights of controls such as buttons and inputs, available as `h-element-*` and
+`size-element-*`.
+
+<ElementSizes />
+
+## Radii
+
+<Radii />
+
+## Spacing
+
+<Spacing />
