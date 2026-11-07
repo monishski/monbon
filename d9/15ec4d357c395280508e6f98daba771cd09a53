@@ -1,0 +1,42 @@
+tsdown.config.ts
+  s_9108ba045b5c3e::t_ca035d75294da4 13
+  s_9108ba045b5c3e::t_552eafd08bf713 12
+package.json
+  s_9108ba045b5c3e::t_0a89f50708ef22 33
+  s_9108ba045b5c3e::t_743f8c09e93fb6 56-57
+  s_9108ba045b5c3e::t_2bd17f445cde38 64,71,88,94-96
+src/styles/styles.css
+  s_9108ba045b5c3e::t_fedee8fc1c65ce 1-20
+pnpm-lock.yaml
+  s_9108ba045b5c3e::t_2748f4fdd355e6 10-13,27-29,44,47-50,59,62,65,68,71,99-101,110,113,116,493-495,1130-1222,1808-1811,2309-2312,3085-3091,3183-3185,3801,3803,3847-3848,3876,3880,4202,4208-4210,4214,4218,4235,4237,4239,4249,4274-4341,4427,4430,4432-4433,4435,4443,4450,4473,4477,4479,4502,4504,4508,4518,4520-4521,4524,4531,4534,4540,4565,4571,4990-4994,5149,5151,5153,5157,5164,5172,5197,5199,5234,5392,5600-5601,6399-6402,6468-6469,6506,6508-6509,6511-6512,6560,6571,6574,6577,6594,6598
+src/styles/colors.primitives.css
+  s_9108ba045b5c3e::t_02c7bd963672a6 1-249
+src/styles/colors.semantics.css
+  s_9108ba045b5c3e::t_4c213d52edfee9 1-318
+src/styles/layout.primitives.css
+  s_9108ba045b5c3e::t_06ee82a0b43892 1-9
+src/styles/layout.semantics.css
+  s_9108ba045b5c3e::t_7c821590b759fe 1-36
+src/styles/typography.primitives.css
+  s_9108ba045b5c3e::t_755c4b2e970598 1-35
+src/styles/typography.semantics.css
+  s_9108ba045b5c3e::t_c3721a6c7f6465 1-216
+src/styles/utilities.css
+  s_9108ba045b5c3e::t_7517e643105809 1-49
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "d915ec4d357c395280508e6f98daba771cd09a53",
+  "prompts": {},
+  "sessions": {
+    "s_9108ba045b5c3e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f03f1784-bd65-4a6d-9403-9593808099d7",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Monish Vassantrai <m.vassantrai@gmail.com>"
+    }
+  }
+}
