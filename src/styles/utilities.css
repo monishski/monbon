@@ -1,0 +1,49 @@
+/* Weights Input has no file for fall back to the nearest one, not a faux bold */
+@utility font-number {
+  font-family: var(--font-number);
+  font-synthesis-weight: none;
+}
+
+@utility scrollbar-hide {
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@utility scroll-area-overflow-mask {
+  mask-image:
+    linear-gradient(
+      to bottom,
+      transparent 0,
+      black min(var(--scroll-area-shadow-size, 40px), var(--scroll-area-overflow-y-start)),
+      black
+        calc(
+          100% -
+            min(
+              var(--scroll-area-shadow-size, 40px),
+              var(--scroll-area-overflow-y-end, var(--scroll-area-shadow-size, 40px))
+            )
+        ),
+      transparent 100%
+    ),
+    linear-gradient(
+      to right,
+      transparent 0,
+      black min(var(--scroll-area-shadow-size, 40px), var(--scroll-area-overflow-x-start)),
+      black
+        calc(
+          100% -
+            min(
+              var(--scroll-area-shadow-size, 40px),
+              var(--scroll-area-overflow-x-end, var(--scroll-area-shadow-size, 40px))
+            )
+        ),
+      transparent 100%
+    );
+  mask-size: 100% 100%;
+  mask-repeat: no-repeat;
+  mask-composite: intersect;
+  -webkit-mask-composite: source-in;
+}

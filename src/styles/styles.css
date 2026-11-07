@@ -1,0 +1,20 @@
+/* @monbon-ui/react styles. Import after Tailwind:
+
+     @import "tailwindcss";
+     @import "@monbon-ui/react/styles.css";
+*/
+
+@import "tw-animate-css";
+
+@import "./colors.primitives.css";
+@import "./colors.semantics.css";
+@import "./typography.primitives.css";
+@import "./typography.semantics.css";
+@import "./layout.primitives.css";
+@import "./layout.semantics.css";
+@import "./utilities.css";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Let the app's Tailwind build find the classes used by the components */
+@source "../components";
