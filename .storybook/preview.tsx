@@ -3,7 +3,6 @@ import { withThemeByClassName } from "@storybook/addon-themes";
 import type { Preview, ReactRenderer } from "@storybook/react-vite";
 import { themes } from "storybook/theming";
 
-import "@fontsource-variable/figtree";
 import "./preview.css";
 
 const preview: Preview = {
