@@ -1,0 +1,31 @@
+stories/docs/foundations/tokens.tsx
+  s_9108ba045b5c3e::t_f00b4438dbcb22 158-161,164
+  s_9108ba045b5c3e::t_6a747799ff0da2 1-66,69,81,88-102,104-106,108,112-157,162-163,165-224,227-236,241-245
+  s_9108ba045b5c3e::t_7619610a61386c 67-68,70-80,82-87
+  s_9108ba045b5c3e::t_b5fcfbe2a7f80d 237-240
+  s_9108ba045b5c3e::t_d4accdb3ce2ef9 103,107,109-111
+  s_9108ba045b5c3e::t_544b9b9718cd0d 225-226
+  s_9108ba045b5c3e::t_0661a154d76007 246-247
+stories/docs/foundations/colors.mdx
+  s_9108ba045b5c3e::t_c16a4d3854483e 1-29
+stories/docs/foundations/typography.mdx
+  s_9108ba045b5c3e::t_5eda15e0fc274a 1-22
+stories/docs/foundations/layout.mdx
+  s_9108ba045b5c3e::t_814ee6206b5e28 1-28
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "429598d0b184d4f1ab581b73d7613725bd1bb2e8",
+  "prompts": {},
+  "sessions": {
+    "s_9108ba045b5c3e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f03f1784-bd65-4a6d-9403-9593808099d7",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Monish Vassantrai <m.vassantrai@gmail.com>"
+    }
+  }
+}
