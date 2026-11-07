@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@import "../src/styles/styles.css";
+
+@source "../stories";
+
+/* Figtree comes from @fontsource-variable/figtree, imported in preview.tsx */
+:root {
+  --font-figtree: "Figtree Variable";
+}
+
+body {
+  @apply bg-app text-default-text-contrast font-sans;
+}
