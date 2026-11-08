@@ -1,0 +1,25 @@
+.changeset/README.md
+  s_9108ba045b5c3e::t_2ec85b67732d6f 1-5
+.changeset/config.json
+  s_9108ba045b5c3e::t_617a47b379dfd6 1-17
+package.json
+  s_9108ba045b5c3e::t_97bd1dab28e802 52-54,62-63
+pnpm-lock.yaml
+  s_9108ba045b5c3e::t_b1d6fdcf9f8164 39-44,254-322,329-336,714-725,988-991,1928-1930,2181-2186,2190-2192,2345-2348,2540-2542,2592-2594,2885-2887,3211-3214,3242-3244,3863-3975,3988-3999,4365-4379,4540-4541,5431-5432,5786-5791,5794-5797,5946-5947,6126-6127,6169-6173,6477-6478,6799-6800,6839-6840
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "b5a946c83d350dd50dd1fbd102531a00c16420b2",
+  "prompts": {},
+  "sessions": {
+    "s_9108ba045b5c3e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f03f1784-bd65-4a6d-9403-9593808099d7",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Monish Vassantrai <m.vassantrai@gmail.com>"
+    }
+  }
+}
