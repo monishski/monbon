@@ -16,6 +16,7 @@ export default {
         "revert",
         "wip",
         "build",
+        "ci",
       ],
     ],
     "subject-case": [0],
