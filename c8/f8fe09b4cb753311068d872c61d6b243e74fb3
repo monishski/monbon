@@ -1,0 +1,59 @@
+src/components/primitives/calendar/calendar.tsx
+  s_9108ba045b5c3e::t_fdf95333006584 1-165
+src/components/primitives/calendar/calendar.variants.ts
+  s_9108ba045b5c3e::t_4320aa6ba71dd4 1-39
+src/components/primitives/calendar/index.ts
+  s_9108ba045b5c3e::t_6b35cba7c47d93 1-4
+src/components/primitives/calendar/range-calendar.tsx
+  s_9108ba045b5c3e::t_150fe62a1b0295 1-136
+src/components/primitives/date-input/date-input.tsx
+  s_9108ba045b5c3e::t_8003760ae24384 1-102
+src/components/primitives/date-input/date-input.variants.ts
+  s_9108ba045b5c3e::t_03f38fceac753f 1-86
+src/components/primitives/date-input/index.ts
+  s_9108ba045b5c3e::t_cf722ff776dc32 1-3
+src/components/primitives/date-picker/date-picker.tsx
+  s_9108ba045b5c3e::t_c0b739c9a0371c 1-84
+src/components/primitives/date-picker/index.ts
+  s_9108ba045b5c3e::t_67a43ff3abe025 1-2
+src/components/primitives/date-range-input/date-range-input.tsx
+  s_9108ba045b5c3e::t_81ad703da42a2d 1-191
+src/components/primitives/date-range-input/index.ts
+  s_9108ba045b5c3e::t_f942e2002b2c66 1-2
+src/components/primitives/date-range-picker/date-range-picker.tsx
+  s_9108ba045b5c3e::t_4deb276ce58ab7 1-148
+src/components/primitives/date-range-picker/index.ts
+  s_9108ba045b5c3e::t_6b0414ecdc2634 1-2
+src/components/primitives/index.ts
+  s_9108ba045b5c3e::t_7b76afc31aef72 4-8
+stories/primitives/calendar.stories.tsx
+  s_9108ba045b5c3e::t_0843ff0ad2ddc6 1-67
+stories/primitives/date-input.stories.tsx
+  s_9108ba045b5c3e::t_cc3dc4e5f04251 1-101
+stories/primitives/date-picker.stories.tsx
+  s_9108ba045b5c3e::t_f7c5c76e03ae97 1-84
+stories/primitives/date-range-input.stories.tsx
+  s_9108ba045b5c3e::t_f63d262faa5505 1-141
+stories/primitives/date-range-picker.stories.tsx
+  s_9108ba045b5c3e::t_6f2d2c4a940df3 1-104
+stories/primitives/field.stories.tsx
+  s_9108ba045b5c3e::t_6a5da0bbf5bc8f 1-185
+stories/primitives/range-calendar.stories.tsx
+  s_9108ba045b5c3e::t_63b93f8e016b70 1-39
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "c8f8fe09b4cb753311068d872c61d6b243e74fb3",
+  "prompts": {},
+  "sessions": {
+    "s_9108ba045b5c3e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f03f1784-bd65-4a6d-9403-9593808099d7",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Monish Vassantrai <m.vassantrai@gmail.com>"
+    }
+  }
+}
