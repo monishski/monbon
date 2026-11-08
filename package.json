@@ -6,10 +6,10 @@
   "author": "Monish Vassantrai",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/monishski/monbon.git"
+    "url": "git+https://github.com/monishski/monbon-ui.git"
   },
-  "homepage": "https://github.com/monishski/monbon#readme",
-  "bugs": "https://github.com/monishski/monbon/issues",
+  "homepage": "https://github.com/monishski/monbon-ui#readme",
+  "bugs": "https://github.com/monishski/monbon-ui/issues",
   "keywords": [
     "react",
     "components",
