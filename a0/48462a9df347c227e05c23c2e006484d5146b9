@@ -1,0 +1,21 @@
+.github/actions/setup/action.yml
+  s_9108ba045b5c3e::t_8d592d04b345fe 1-16
+.github/workflows/ci.yml
+  s_9108ba045b5c3e::t_8c772429730279 1-35
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "a048462a9df347c227e05c23c2e006484d5146b9",
+  "prompts": {},
+  "sessions": {
+    "s_9108ba045b5c3e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f03f1784-bd65-4a6d-9403-9593808099d7",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Monish Vassantrai <m.vassantrai@gmail.com>"
+    }
+  }
+}
