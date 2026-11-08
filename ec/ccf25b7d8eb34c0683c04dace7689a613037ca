@@ -1,0 +1,69 @@
+.storybook/preview.tsx
+  s_9108ba045b5c3e::t_f8b9905859eb1b 53-62
+src/components/primitives/divider/divider.tsx
+  s_9108ba045b5c3e::t_d0b85b1bc78148 1-30
+src/components/primitives/divider/divider.variants.ts
+  s_9108ba045b5c3e::t_0b4f31d47b76fb 1-18
+src/components/primitives/divider/index.ts
+  s_9108ba045b5c3e::t_d9d5f7ebf06c94 1-2
+src/components/primitives/flex/flex.tsx
+  s_9108ba045b5c3e::t_3add09343ba08c 1-39
+src/components/primitives/flex/flex.variants.ts
+  s_9108ba045b5c3e::t_907db54a58833e 1-64
+src/components/primitives/flex/index.ts
+  s_9108ba045b5c3e::t_cd62aa82618b95 1-2
+src/components/primitives/index.ts
+  s_9108ba045b5c3e::t_400d47014eb045 1-5
+src/components/primitives/scroll-area/index.ts
+  s_9108ba045b5c3e::t_d44db895350883 1-3
+src/components/primitives/scroll-area/scroll-area.tsx
+  s_9108ba045b5c3e::t_70b14fb90bb1d0 1-62
+src/components/primitives/scroll-area/scroll-area.variants.ts
+  s_9108ba045b5c3e::t_ceda5837a1c930 1-22
+src/components/primitives/scroll-area/scroll-bar.tsx
+  s_9108ba045b5c3e::t_0705f94cdd1b67 1-32
+src/components/primitives/surface/index.ts
+  s_9108ba045b5c3e::t_192d6de2dfcf0f 1-2
+src/components/primitives/surface/surface.tsx
+  s_9108ba045b5c3e::t_7f87e3f1618c7c 1-21
+src/components/primitives/surface/surface.variants.ts
+  s_9108ba045b5c3e::t_d70414deb396fe 1-18
+src/components/primitives/typography/base-typography.variants.ts
+  s_9108ba045b5c3e::t_f16cf8e70f97ba 1-63
+src/components/primitives/typography/heading.tsx
+  s_9108ba045b5c3e::t_6def1a6bbdb292 1-45
+src/components/primitives/typography/heading.variants.ts
+  s_9108ba045b5c3e::t_c3fe05e40f77f5 1-43
+src/components/primitives/typography/index.ts
+  s_9108ba045b5c3e::t_fad9da8e0cf154 1-4
+src/components/primitives/typography/text.tsx
+  s_9108ba045b5c3e::t_dff9733cdd8ca9 1-38
+src/components/primitives/typography/text.variants.ts
+  s_9108ba045b5c3e::t_423816958f9af1 1-33
+src/index.ts
+  s_9108ba045b5c3e::t_9b679a9a9da70d 10-11
+stories/primitives/heading.stories.tsx
+  s_9108ba045b5c3e::t_03ad66da019db7 1-236
+stories/primitives/scroll-area.stories.tsx
+  s_9108ba045b5c3e::t_46885240e6b2c4 1-68
+stories/primitives/surface.stories.tsx
+  s_9108ba045b5c3e::t_69ec1b10a62f06 1-48
+stories/primitives/text.stories.tsx
+  s_9108ba045b5c3e::t_e8e23d9ffe93af 1-242
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "ecccf25b7d8eb34c0683c04dace7689a613037ca",
+  "prompts": {},
+  "sessions": {
+    "s_9108ba045b5c3e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f03f1784-bd65-4a6d-9403-9593808099d7",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Monish Vassantrai <m.vassantrai@gmail.com>"
+    }
+  }
+}
