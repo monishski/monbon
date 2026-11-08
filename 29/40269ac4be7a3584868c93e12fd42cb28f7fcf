@@ -1,0 +1,25 @@
+README.md
+  s_9108ba045b5c3e::t_f569a290fccd21 14
+package.json
+  s_9108ba045b5c3e::t_b8730b9a76c4dc 2
+src/styles/styles.css
+  s_9108ba045b5c3e::t_ea9d7429ed2825 1,4
+stories/docs/introduction.mdx
+  s_9108ba045b5c3e::t_36ac7fd6da5bf5 16
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "2940269ac4be7a3584868c93e12fd42cb28f7fcf",
+  "prompts": {},
+  "sessions": {
+    "s_9108ba045b5c3e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f03f1784-bd65-4a6d-9403-9593808099d7",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Monish Vassantrai <m.vassantrai@gmail.com>"
+    }
+  }
+}
