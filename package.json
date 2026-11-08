@@ -49,7 +49,9 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "lint-staged": "lint-staged",
-    "prepare": "husky"
+    "prepare": "husky",
+    "changeset": "changeset",
+    "release": "pnpm build && changeset publish"
   },
   "peerDependencies": {
     "react": "^19.0.0",
@@ -57,6 +59,8 @@
     "tailwindcss": "^4.0.0"
   },
   "devDependencies": {
+    "@changesets/changelog-github": "^1.0.1",
+    "@changesets/cli": "^3.0.3",
     "@chromatic-com/storybook": "^5.6.0",
     "@commitlint/cli": "^19.8.1",
     "@commitlint/config-conventional": "^19.8.1",
