@@ -1,0 +1,14 @@
+CHANGELOG.md
+  h_8087c96937daf8 7
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "f4da96caeb9c6bad4a4f28de953d5eefc5784d8b",
+  "prompts": {},
+  "humans": {
+    "h_8087c96937daf8": {
+      "author": "Monish Vassantrai <m.vassantrai@gmail.com>"
+    }
+  }
+}
