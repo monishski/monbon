@@ -1,0 +1,41 @@
+src/components/primitives/index.ts
+  s_9108ba045b5c3e::t_a05c31a64a7da3 6-7,14
+src/components/primitives/menu/index.ts
+  s_9108ba045b5c3e::t_995037046cdb47 1-41
+src/components/primitives/menu/menu.tsx
+  s_9108ba045b5c3e::t_ee22beb802c75c 1-289
+src/components/primitives/menu/menu.variants.ts
+  s_9108ba045b5c3e::t_80a9f53937bbfa 1-71
+src/components/primitives/popover/index.ts
+  s_9108ba045b5c3e::t_a5a666ad96bf31 1
+src/components/primitives/popover/popover.tsx
+  s_9108ba045b5c3e::t_9b6af3b4fb825c 1-58
+src/components/primitives/popover/popover.variants.ts
+  s_9108ba045b5c3e::t_19582d39cfa298 1-17
+src/components/primitives/tooltip/index.ts
+  s_9108ba045b5c3e::t_a80ba2b4a0ab9a 1-11
+src/components/primitives/tooltip/tooltip.tsx
+  s_9108ba045b5c3e::t_5e95daa2ff13d5 1-83
+src/components/primitives/tooltip/tooltip.variants.ts
+  s_9108ba045b5c3e::t_882d794a56149b 1-28
+stories/primitives/menu.stories.tsx
+  s_9108ba045b5c3e::t_04a491ab457094 1-381
+stories/primitives/tooltip.stories.tsx
+  s_9108ba045b5c3e::t_01c9e9d84832e6 1-60
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "be475dee80e6f1fc1c9588dec33e2ee04990f9e2",
+  "prompts": {},
+  "sessions": {
+    "s_9108ba045b5c3e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f03f1784-bd65-4a6d-9403-9593808099d7",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Monish Vassantrai <m.vassantrai@gmail.com>"
+    }
+  }
+}
