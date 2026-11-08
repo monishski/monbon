@@ -1,0 +1,35 @@
+src/index.ts
+  s_9108ba045b5c3e::t_b692f826b77b91 1-7
+src/types/utils.ts
+  s_9108ba045b5c3e::t_51bdfe6ded045d 1-26
+src/utils/cn.ts
+  s_9108ba045b5c3e::t_31bcc82a7db6b9 1-16
+src/utils/date.ts
+  s_9108ba045b5c3e::t_1426cb2a617102 1-121
+src/utils/object.ts
+  s_9108ba045b5c3e::t_e84f000f47d7fb 1-7
+src/utils/tailwind-variants.ts
+  s_9108ba045b5c3e::t_9e9dbb39378220 1-27
+src/utils/tv.ts
+  s_9108ba045b5c3e::t_9e857df77e83fc 1-7
+src/utils/validity.ts
+  s_9108ba045b5c3e::t_1cbcf81e8f32c3 1-7
+stories/utils/storybook.ts
+  s_9108ba045b5c3e::t_a6fd4fe3251caf 1-32
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "357c289205ab4b444ab34350ae6460f7d3137828",
+  "prompts": {},
+  "sessions": {
+    "s_9108ba045b5c3e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f03f1784-bd65-4a6d-9403-9593808099d7",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Monish Vassantrai <m.vassantrai@gmail.com>"
+    }
+  }
+}
