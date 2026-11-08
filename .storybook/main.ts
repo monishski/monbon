@@ -13,6 +13,18 @@ const config: StorybookConfig = {
   framework: "@storybook/react-vite",
   viteFinal(viteConfig) {
     viteConfig.plugins = [...(viteConfig.plugins ?? []), tailwindcss()];
+    viteConfig.build = {
+      ...viteConfig.build,
+      rolldownOptions: {
+        ...viteConfig.build?.rolldownOptions,
+        // "use client" only means something to React Server Components, and
+        // Storybook runs everything on the client
+        onLog(level, log, defaultHandler) {
+          if (log.code === "MODULE_LEVEL_DIRECTIVE") return;
+          defaultHandler(level, log);
+        },
+      },
+    };
     return viteConfig;
   },
 };

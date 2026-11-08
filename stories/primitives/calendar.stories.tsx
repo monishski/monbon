@@ -1,5 +1,3 @@
-"use client";
-
 import { useState } from "react";
 import { getLocalTimeZone, today, type CalendarDate } from "@internationalized/date";
 import type { Meta, StoryObj } from "@storybook/react-vite";
