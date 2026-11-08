@@ -2,6 +2,7 @@ export * from "./avatar";
 export * from "./badge";
 export * from "./button";
 export * from "./calendar";
+export * from "./combobox";
 export * from "./date-input";
 export * from "./date-picker";
 export * from "./date-range-input";
