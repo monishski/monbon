@@ -6,6 +6,11 @@ import { themes } from "storybook/theming";
 import "./preview.css";
 
 const preview: Preview = {
+  // Set the theme from the start, so docs pages read it before the toolbar
+  // is touched
+  initialGlobals: {
+    theme: "dark",
+  },
   decorators: [
     withThemeByClassName<ReactRenderer>({
       themes: {
