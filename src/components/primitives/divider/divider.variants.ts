@@ -1,0 +1,18 @@
+import type { VariantProps } from "tailwind-variants";
+
+import { tv } from "../../../utils/tv";
+
+export const dividerVariants = tv({
+  base: "border-default-line",
+  variants: {
+    orientation: {
+      horizontal: "w-full border-b",
+      vertical: "flex h-auto items-center self-stretch border-r",
+    },
+  },
+  defaultVariants: {
+    orientation: "horizontal",
+  },
+});
+
+export type DividerVariantsProps = VariantProps<typeof dividerVariants>;

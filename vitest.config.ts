@@ -9,8 +9,6 @@ const dirname = path.dirname(fileURLToPath(import.meta.url));
 // More info at: https://storybook.js.org/docs/writing-tests/integrations/vitest-addon
 export default defineConfig({
   test: {
-    // Until the first stories land
-    passWithNoTests: true,
     projects: [
       {
         extends: true,
