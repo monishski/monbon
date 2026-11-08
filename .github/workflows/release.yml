@@ -1,0 +1,30 @@
+name: Release
+
+on:
+  push:
+    branches: [main]
+
+# Never run two releases at once, and never cancel one part-way
+concurrency: ${{ github.workflow }}-${{ github.ref }}
+
+jobs:
+  release:
+    name: Version or publish
+    runs-on: ubuntu-latest
+    permissions:
+      # Push the version commit and the release tags
+      contents: write
+      # Open and update the version PR
+      pull-requests: write
+      # Publish to npm with trusted publishing (OIDC), so no npm token is stored
+      id-token: write
+    steps:
+      - uses: actions/checkout@v7
+      - uses: ./.github/actions/setup
+      # With changesets on main, this opens or updates a version PR. With none
+      # left (after that PR merges), it publishes any version not yet on npm
+      - uses: changesets/action@v2.1.2
+        with:
+          publish-script: pnpm release
+          commit-message: "build: release new versions"
+          pr-title: "build/release"
