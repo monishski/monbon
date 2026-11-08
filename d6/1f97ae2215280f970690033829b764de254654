@@ -1,0 +1,27 @@
+src/components/primitives/combobox/combobox.tsx
+  s_9108ba045b5c3e::t_a2e4dd6bb8f479 1-383
+src/components/primitives/combobox/combobox.variants.ts
+  s_9108ba045b5c3e::t_979899fae61dcf 1-90
+src/components/primitives/combobox/index.ts
+  s_9108ba045b5c3e::t_ed0142d88cb6af 1-2
+src/components/primitives/index.ts
+  s_9108ba045b5c3e::t_7421a29a1c716c 5
+stories/primitives/combobox.stories.tsx
+  s_9108ba045b5c3e::t_08b5ec5e0a1d54 1-347
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "d61f97ae2215280f970690033829b764de254654",
+  "prompts": {},
+  "sessions": {
+    "s_9108ba045b5c3e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f03f1784-bd65-4a6d-9403-9593808099d7",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Monish Vassantrai <m.vassantrai@gmail.com>"
+    }
+  }
+}
