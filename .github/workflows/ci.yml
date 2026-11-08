@@ -33,3 +33,24 @@ jobs:
       - uses: ./.github/actions/setup
       - run: pnpm exec playwright install --with-deps chromium
       - run: pnpm test
+
+  chromatic:
+    name: Chromatic
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          # Chromatic reads the git history to find the baseline to compare against
+          fetch-depth: 0
+          # Build the PR's own commit, not the merge commit GitHub makes for it
+          ref: ${{ github.event.pull_request.head.ref }}
+      - uses: ./.github/actions/setup
+      - uses: chromaui/action@v18
+        with:
+          projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
+          # Only snapshot the stories a change can affect (TurboSnap)
+          onlyChanged: true
+          # Visual changes are reviewed in Chromatic, so they don't fail the run
+          exitZeroOnChanges: true
+          # What lands on main becomes the new baseline
+          autoAcceptChanges: main
