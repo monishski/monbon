@@ -1,0 +1,216 @@
+/* Semantic type scale — composes primitives into intent tokens + utilities. */
+
+:root {
+  --text-heading-1-size: var(--font-size-2xl);
+  --text-heading-1-weight: var(--font-weight-semibold);
+  --text-heading-1-leading: var(--font-leading-snug);
+
+  --text-heading-2-size: var(--font-size-xl);
+  --text-heading-2-weight: var(--font-weight-semibold);
+  --text-heading-2-leading: var(--font-leading-medium);
+
+  --text-heading-3-size: var(--font-size-lg);
+  --text-heading-3-weight: var(--font-weight-semibold);
+  --text-heading-3-leading: var(--font-leading-normal);
+
+  --text-heading-4-size: var(--font-size-base);
+  --text-heading-4-weight: var(--font-weight-semibold);
+  --text-heading-4-leading: var(--font-leading-normal);
+
+  --text-heading-5-size: var(--font-size-sm);
+  --text-heading-5-weight: var(--font-weight-semibold);
+  --text-heading-5-leading: var(--font-leading-loose);
+
+  --text-heading-6-size: var(--font-size-xs);
+  --text-heading-6-weight: var(--font-weight-semibold);
+  --text-heading-6-leading: var(--font-leading-relaxed);
+
+  --text-display-1-size: var(--font-size-5xl);
+  --text-display-1-weight: var(--font-weight-semibold);
+  --text-display-1-leading: var(--font-leading-tight);
+
+  --text-display-2-size: var(--font-size-4xl);
+  --text-display-2-weight: var(--font-weight-semibold);
+  --text-display-2-leading: var(--font-leading-tight);
+
+  --text-display-3-size: var(--font-size-3xl);
+  --text-display-3-weight: var(--font-weight-semibold);
+  --text-display-3-leading: var(--font-leading-tight);
+
+  --text-display-4-size: var(--font-size-2xl);
+  --text-display-4-weight: var(--font-weight-semibold);
+  --text-display-4-leading: var(--font-leading-snug);
+
+  --text-display-5-size: var(--font-size-xl);
+  --text-display-5-weight: var(--font-weight-semibold);
+  --text-display-5-leading: var(--font-leading-medium);
+
+  --text-display-6-size: var(--font-size-lg);
+  --text-display-6-weight: var(--font-weight-semibold);
+  --text-display-6-leading: var(--font-leading-normal);
+
+  --text-large-size: var(--font-size-lg);
+  --text-large-weight: var(--font-weight-semibold);
+  --text-large-leading: var(--font-leading-normal);
+
+  --text-body-xs-size: var(--font-size-xs);
+  --text-body-xs-weight: var(--font-weight-normal);
+  --text-body-xs-leading: var(--font-leading-normal);
+
+  --text-body-sm-size: var(--font-size-sm);
+  --text-body-sm-weight: var(--font-weight-normal);
+  --text-body-sm-leading: var(--font-leading-normal);
+
+  --text-body-md-size: var(--font-size-base);
+  --text-body-md-weight: var(--font-weight-normal);
+  --text-body-md-leading: var(--font-leading-normal);
+
+  --text-body-lg-size: var(--font-size-lg);
+  --text-body-lg-weight: var(--font-weight-normal);
+  --text-body-lg-leading: var(--font-leading-normal);
+
+  --text-label-size: var(--font-size-base);
+  --text-label-weight: var(--font-weight-medium);
+  --text-label-leading: var(--font-leading-normal);
+
+  --text-code-size: var(--font-size-base);
+  --text-code-weight: var(--font-weight-normal);
+  --text-code-leading: var(--font-leading-normal);
+
+  --text-supporting-size: var(--font-size-sm);
+  --text-supporting-weight: var(--font-weight-normal);
+  --text-supporting-leading: var(--font-leading-normal);
+}
+
+@utility typography-heading-1 {
+  font-size: var(--text-heading-1-size);
+  font-weight: var(--text-heading-1-weight);
+  line-height: var(--text-heading-1-leading);
+}
+
+@utility typography-heading-2 {
+  font-size: var(--text-heading-2-size);
+  font-weight: var(--text-heading-2-weight);
+  line-height: var(--text-heading-2-leading);
+}
+
+@utility typography-heading-3 {
+  font-size: var(--text-heading-3-size);
+  font-weight: var(--text-heading-3-weight);
+  line-height: var(--text-heading-3-leading);
+}
+
+@utility typography-heading-4 {
+  font-size: var(--text-heading-4-size);
+  font-weight: var(--text-heading-4-weight);
+  line-height: var(--text-heading-4-leading);
+}
+
+@utility typography-heading-5 {
+  font-size: var(--text-heading-5-size);
+  font-weight: var(--text-heading-5-weight);
+  line-height: var(--text-heading-5-leading);
+}
+
+@utility typography-heading-6 {
+  font-size: var(--text-heading-6-size);
+  font-weight: var(--text-heading-6-weight);
+  line-height: var(--text-heading-6-leading);
+}
+
+@utility typography-display-1 {
+  font-size: var(--text-display-1-size);
+  font-weight: var(--text-display-1-weight);
+  line-height: var(--text-display-1-leading);
+}
+
+@utility typography-display-2 {
+  font-size: var(--text-display-2-size);
+  font-weight: var(--text-display-2-weight);
+  line-height: var(--text-display-2-leading);
+}
+
+@utility typography-display-3 {
+  font-size: var(--text-display-3-size);
+  font-weight: var(--text-display-3-weight);
+  line-height: var(--text-display-3-leading);
+}
+
+@utility typography-display-4 {
+  font-size: var(--text-display-4-size);
+  font-weight: var(--text-display-4-weight);
+  line-height: var(--text-display-4-leading);
+}
+
+@utility typography-display-5 {
+  font-size: var(--text-display-5-size);
+  font-weight: var(--text-display-5-weight);
+  line-height: var(--text-display-5-leading);
+}
+
+@utility typography-display-6 {
+  font-size: var(--text-display-6-size);
+  font-weight: var(--text-display-6-weight);
+  line-height: var(--text-display-6-leading);
+}
+
+@utility typography-large {
+  font-size: var(--text-large-size);
+  font-weight: var(--text-large-weight);
+  line-height: var(--text-large-leading);
+}
+
+@utility typography-body-xs {
+  font-size: var(--text-body-xs-size);
+  font-weight: var(--text-body-xs-weight);
+  line-height: var(--text-body-xs-leading);
+}
+
+@utility typography-body-sm {
+  font-size: var(--text-body-sm-size);
+  font-weight: var(--text-body-sm-weight);
+  line-height: var(--text-body-sm-leading);
+}
+
+@utility typography-body-md {
+  font-size: var(--text-body-md-size);
+  font-weight: var(--text-body-md-weight);
+  line-height: var(--text-body-md-leading);
+}
+
+@utility typography-body-lg {
+  font-size: var(--text-body-lg-size);
+  font-weight: var(--text-body-lg-weight);
+  line-height: var(--text-body-lg-leading);
+}
+
+@utility typography-label {
+  font-size: var(--text-label-size);
+  font-weight: var(--text-label-weight);
+  line-height: var(--text-label-leading);
+}
+
+@utility typography-code {
+  font-size: var(--text-code-size);
+  font-weight: var(--text-code-weight);
+  line-height: var(--text-code-leading);
+}
+
+@utility typography-supporting {
+  font-size: var(--text-supporting-size);
+  font-weight: var(--text-supporting-weight);
+  line-height: var(--text-supporting-leading);
+}
+
+/* Font sizes as Tailwind text-* utilities */
+@theme inline {
+  --text-xs: var(--font-size-xs);
+  --text-sm: var(--font-size-sm);
+  --text-base: var(--font-size-base);
+  --text-lg: var(--font-size-lg);
+  --text-xl: var(--font-size-xl);
+  --text-2xl: var(--font-size-2xl);
+  --text-3xl: var(--font-size-3xl);
+  --text-4xl: var(--font-size-4xl);
+  --text-5xl: var(--font-size-5xl);
+}

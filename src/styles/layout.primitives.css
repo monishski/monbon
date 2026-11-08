@@ -1,0 +1,9 @@
+:root {
+  --size-element-2xs: 1.25rem; /* 20px */
+  --size-element-xs: 1.5rem; /* 24px */
+  --size-element-sm: 1.75rem; /* 28px */
+  --size-element-md: 2rem; /* 32px */
+  --size-element-lg: 2.25rem; /* 36px */
+
+  --size-ring: 0.125rem; /* 2px */
+}

@@ -1,0 +1,36 @@
+/* Layout semantics — radius by role, plus the padding those radii nest inside.
+   Inner radius = outer radius minus that surface's padding. */
+
+@theme {
+  --radius-element-xs: var(--radius-md); /* 6px */
+  --radius-element-sm: var(--radius-lg); /* 8px */
+  --radius-element-md: 0.625rem; /* 10px */
+  --radius-element-lg: var(--radius-xl); /* 12px */
+
+  --spacing-menu-sm: 0.125rem; /* 2px */
+  --radius-menu-sm: var(--radius-lg); /* 8px */
+  --radius-menu-sm-inner: calc(var(--radius-menu-sm) - var(--spacing-menu-sm)); /* 6px */
+
+  --spacing-menu-md: 0.25rem; /* 4px */
+  --radius-menu-md: var(--radius-xl); /* 12px */
+  --radius-menu-inner: calc(var(--radius-menu-md) - var(--spacing-menu-md)); /* 8px */
+
+  --spacing-container: 0.5rem; /* 8px */
+  --radius-container: 1rem; /* 16px */
+  --radius-container-inner: calc(
+    var(--radius-container) - var(--spacing-container)
+  ); /* 12px */
+
+  --spacing-content: 1rem; /* 16px */
+
+  --ring-width-focus: var(--size-ring); /* 2px */
+}
+
+/* Element sizes as Tailwind spacing (h-element-md, size-element-sm, …) */
+@theme inline {
+  --spacing-element-2xs: var(--size-element-2xs);
+  --spacing-element-xs: var(--size-element-xs);
+  --spacing-element-sm: var(--size-element-sm);
+  --spacing-element-md: var(--size-element-md);
+  --spacing-element-lg: var(--size-element-lg);
+}

@@ -1,0 +1,35 @@
+/* Typography primitives (Astryx geometric scale: base 14px × ratio 1.2). */
+
+:root {
+  /* Families. Set --font-figtree and --font-input on <html> to load the brand fonts
+     (e.g. with next/font); each falls back to a system font otherwise. */
+  --font-sans: var(--font-figtree, ui-sans-serif), ui-sans-serif, system-ui, sans-serif;
+  --font-mono:
+    ui-monospace, "SF Mono", Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --font-number:
+    var(--font-input, ui-monospace), ui-monospace, "SF Mono", Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+
+  /* Geometric size scale: round(14 × 1.2^step) in rem (16px root).*/
+  --font-size-xs: 0.625rem; /* 10px · 14 × 1.2^-2 */
+  --font-size-sm: 0.75rem; /* 12px · 14 × 1.2^-1 */
+  --font-size-base: 0.875rem; /* 14px · 14 × 1.2^0 */
+  --font-size-lg: 1.0625rem; /* 17px · 14 × 1.2^1 */
+  --font-size-xl: 1.25rem; /* 20px · 14 × 1.2^2 */
+  --font-size-2xl: 1.5rem; /* 24px · 14 × 1.2^3 */
+  --font-size-3xl: 1.8125rem; /* 29px · 14 × 1.2^4 */
+  --font-size-4xl: 2.1875rem; /* 35px · 14 × 1.2^5 */
+  --font-size-5xl: 2.625rem; /* 42px · 14 × 1.2^6 */
+
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  --font-leading-tight: 1.25;
+  --font-leading-snug: 1.3333;
+  --font-leading-medium: 1.4;
+  --font-leading-normal: 1.4167;
+  --font-leading-relaxed: 1.6;
+  --font-leading-loose: 1.6667;
+}

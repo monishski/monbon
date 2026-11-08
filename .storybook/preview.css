@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@import "../src/styles/styles.css";
+
+@source "../stories";
+
+body {
+  @apply bg-app text-default-text-contrast font-sans;
+}
