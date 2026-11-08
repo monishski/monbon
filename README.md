@@ -11,7 +11,7 @@ A React component library built on [Base UI](https://base-ui.com) and
 ## Install
 
 ```sh
-pnpm add monbon-ui
+pnpm add @monbon-ui/react
 ```
 
 `react` and `react-dom` 19 are peer dependencies.

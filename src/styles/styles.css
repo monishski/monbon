@@ -1,7 +1,7 @@
-/* monbon-ui styles. Import after Tailwind:
+/* @monbon-ui/react styles. Import after Tailwind:
 
      @import "tailwindcss";
-     @import "monbon-ui/styles.css";
+     @import "@monbon-ui/react/styles.css";
 */
 
 @import "tw-animate-css";
