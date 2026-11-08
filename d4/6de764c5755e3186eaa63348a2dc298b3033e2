@@ -1,0 +1,59 @@
+src/components/primitives/field/field.tsx
+  s_9108ba045b5c3e::t_abe34dbd3d1ba6 1-97
+src/components/primitives/field/field.variants.ts
+  s_9108ba045b5c3e::t_81a352ffc7e57d 1-20
+src/components/primitives/field/index.ts
+  s_9108ba045b5c3e::t_9dfeb1270e22f1 1-11
+src/components/primitives/index.ts
+  s_9108ba045b5c3e::t_338f240914897d 5,7-8,12,17
+src/components/primitives/input/index.ts
+  s_9108ba045b5c3e::t_dd0be5c1cd081c 1
+src/components/primitives/input/input.tsx
+  s_9108ba045b5c3e::t_a5cb952b4bd121 1-69
+src/components/primitives/input/input.variants.ts
+  s_9108ba045b5c3e::t_53b4a733aab732 1-57
+src/components/primitives/label/index.ts
+  s_9108ba045b5c3e::t_a664f02b7c3dd8 1-2
+src/components/primitives/label/label.tsx
+  s_9108ba045b5c3e::t_58bea723bf374f 1-22
+src/components/primitives/label/label.variants.ts
+  s_9108ba045b5c3e::t_3279d40e652e32 1-16
+src/components/primitives/select/index.ts
+  s_9108ba045b5c3e::t_2802dfaf7d5fcd 1-3
+src/components/primitives/select/select-item.tsx
+  s_9108ba045b5c3e::t_1b80c65d86698b 1-55
+src/components/primitives/select/select.tsx
+  s_9108ba045b5c3e::t_ac9cc93449f655 1-157
+src/components/primitives/select/select.variants.ts
+  s_9108ba045b5c3e::t_c994a4011f7732 1-106
+src/components/primitives/switch/index.ts
+  s_9108ba045b5c3e::t_8c7fa6820add05 1-2
+src/components/primitives/switch/switch.tsx
+  s_9108ba045b5c3e::t_4aaf79b1643b1a 1-27
+src/components/primitives/switch/switch.variants.ts
+  s_9108ba045b5c3e::t_43c61fa04fe046 1-36
+stories/primitives/input.stories.tsx
+  s_9108ba045b5c3e::t_48711a83f53a0e 1-162
+stories/primitives/label.stories.tsx
+  s_9108ba045b5c3e::t_033dbb4ecf14bc 1-28
+stories/primitives/select.stories.tsx
+  s_9108ba045b5c3e::t_7be70894657f31 1-187
+stories/primitives/switch.stories.tsx
+  s_9108ba045b5c3e::t_005f243b3884c7 1-55
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "d46de764c5755e3186eaa63348a2dc298b3033e2",
+  "prompts": {},
+  "sessions": {
+    "s_9108ba045b5c3e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f03f1784-bd65-4a6d-9403-9593808099d7",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Monish Vassantrai <m.vassantrai@gmail.com>"
+    }
+  }
+}
